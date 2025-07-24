@@ -167,8 +167,9 @@ Please change the parent <Route path="${m}"> to <Route path="${m==="/"?"*":`${m}
               relative \r
               w-full max-w-xs  /* full width up to max width 20rem (320px) */\r
               w-40\r
-              sm:w-60           /* fixed width 15rem (240px) on small screens and up */\r
-              h-80 \r
+              h-60\r
+              sm:w-60           /* fixed width 240px on small screens and up */\r
+              sm:h-80\r
               bg-white \r
               rounded-xl \r
               shadow-xl \r
@@ -178,8 +179,9 @@ Please change the parent <Route path="${m}"> to <Route path="${m==="/"?"*":`${m}
               relative\r
               w-full max-w-xs  /* full width up to max 320px on mobile */\r
               w-40\r
+              h-60\r
               sm:w-60           /* fixed width 240px on small screens and up */\r
-              h-80\r
+              sm:h-80\r
               bg-white\r
               rounded-xl\r
               shadow-xl\r
